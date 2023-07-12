@@ -71,13 +71,13 @@
 
 .featured-image {
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        margin-top: 20px;
-        background: white;
-        margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    background: white;
+    margin-bottom: 20px;
 }
 
 .featured-image img {
@@ -86,21 +86,23 @@
 }
 
 
-.titles{
+.titles {
     color: #272727;
     font-weight: 700;
     font-family: Lato;
     font-size: 30px;
     padding-bottom: 17px;
 }
-.para{
-    
-        color: rgba(39, 39, 39, 0.60);
-        padding-bottom: 17px;
-        
-    
+
+.para {
+
+    color: rgba(39, 39, 39, 0.60);
+    padding-bottom: 17px;
+
+
 }
-.main-discount{
+
+.main-discount {
     background: #E554731A;
     display: flex;
     justify-content: space-between;
@@ -109,78 +111,102 @@
     padding-right: 15rem;
     padding-bottom: 50px;
     padding-top: 50px;
-    
+
     margin-top: 100px;
     text-align: center;
 
 }
+
 .cat-text {
     text-align: center;
     margin-top: 90px;
     margin-bottom: 50px;
 
 }
-.input-main{
-    
+
+.input-main {
+
     background-image: url("Flower\ Asset/Rectangle 9.png");
     margin-top: 100px;
     padding: 90px;
     align-items: center;
     text-align: center;
     justify-content: center;
-   margin-left: 155px;
-   margin-right:155px ;
-   margin-bottom: 20px;
-   background-position: center;
-   background-size: cover;
-   border-radius: 5px;
-    
+    margin-left: 155px;
+    margin-right: 155px;
+    margin-bottom: 20px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+
 }
-.input-head{
+
+.input-head {
     margin-bottom: 20px;
 }
-.input-head  p{
+
+.input-head p {
     padding: 10px;
 }
-.form input[type=text]
-{
+
+.form input[type=text] {
     display: inline;
     padding: 15px 50px;
     border: none;
     background: white;
     border-radius: 5px;
     width: 45%;
-    
+
 }
-.form input[type=button]{
-        background: #E55473;
-        color: white;
-        padding: 12px 15px;
-        font-size: 18px;
-        border: none;
-        outline: none;
-        border-radius: 5px;
-        margin-left: 10px;
+
+.form input[type=button] {
+    background: #E55473;
+    color: white;
+    padding: 12px 15px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 10px;
 }
-.fut{
+
+.fut {
     background-color: black;
     margin-top: 100px;
     padding: 90px;
     align-items: center;
     text-align: center;
     justify-content: center;
-   background-position: center;
-   background-size: cover;
-   color: white;
+    background-position: center;
+    background-size: cover;
+    color: white;
 }
 
-.futtin p{
+.futtin p {
     padding: 15px;
 
 }
-.sm{
+
+.sm {
     color: #272727;
 }
-.span{
+
+.span {
     color: #E55473;
+}
+
+/* bonus iteam */
+.bonus {
+    display: flex;
+    gap: 50px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    justify-content: center;
+    text-align: center;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
